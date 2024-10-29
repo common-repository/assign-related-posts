@@ -1,0 +1,66 @@
+.arp-post-single-container {
+	width: 100%;
+	overflow: hidden;
+	//background: skyblue;
+	margin: 2px auto;
+}
+.arp-post-single-container ul{
+	padding: 0px;
+	margin: 0px;
+}
+.arp-post-single-container ul li{
+	list-style: none;
+	float: left;
+	width: 32%;
+	height: auto;
+	//background: red;
+	box-sizing: border-box;
+	border: 2px solid white;
+	
+}
+.arp-post-single-container ul li:hover{
+	opacity: 0.9;
+	text-decoration: none;
+}
+.arp-post-single-container ul li .arp_title a:hover{
+	box-shadow: none;
+}
+.arp-post-single-container ul li .arp_title {
+	width: 100%;
+	line-height: 12px;
+	background: white;
+	text-align: center;
+	height: 17px;
+	font-size: 13px;
+	text-transform: capitalize;
+}
+.arp-post-single-container ul li .arp_title a {
+	-webkit-box-shadow: none;
+}
+.arp-post-single-container .top-heading h2 {
+    font-size: 16px;
+    color: #000;
+    text-transform: capitalize;
+	font-family: Oswald,arial,Georgia, serif;
+	line-height: 1
+}
+.arp-post-single-container .top-heading {
+	padding-bottom: 0px;
+    border-bottom: 1px solid #000;
+	margin-bottom: 8px;
+}
+
+/* Responsive */
+@media only screen and (max-device-width: 480px) {
+	.arp-post-single-container ul li{
+		width: 100%;
+		padding: 11px;
+	}
+	.arp-post-single-container ul li .arp_title a{
+		font-size: 20px;
+	}
+	.arp-post-single-container ul{
+		padding: 0px;
+		margin: 0px !important;
+	}
+}
